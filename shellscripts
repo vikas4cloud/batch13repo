@@ -1,0 +1,41 @@
+abc.sh
+vi means   - if file doste exit create 
+   if alreday file is it will open to edit
+
+vi script.sh
+
+Press i for insert then paste your code 
+
+esc + : +cq! +  enter  -- only exit
+Esc +: +wq +enter  -- save and exit
+
+
+Execute permision
+chmod 777 filename.sh
+
+
+Code 
+
+#!/bin/bash  
+echo "This is a shell script"
+echo "the hostname 0f this machine is "
+hostname 
+hostname -i
+echo "memory used in the machine "
+free
+echo "disk used in the machine "
+df -h
+echo "the above informfation from the machine"  
+SOMEVAR='text stuff'  
+echo "$SOMEVAR"
+
+
+to run any script 
+
+./<scriptname>
+
+
+
+
+
+echo "My name is $(whoami)"

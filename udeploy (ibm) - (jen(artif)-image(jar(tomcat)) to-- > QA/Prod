@@ -1,0 +1,73 @@
+1st ritu - udeploy (ibm) - (jen(artif)-image(jar(tomcat)) to-- > QA/Prod/ )
+---> --->
+
+2nd .net copy ddl and paste the vm if required restart 
+
+
+
+jfog - dwnld 
+
+jenkins - choose env
+
+
+Steps for Java code (git)  --->  Jenkins (build + CI) --> CD via jenkins ---->   Docker hub 
+
+Step 1 Create a freestyle jenkins project/Job.
+batch13cdtodockerhub  - done 
+
+
+Step 2 Understand the code and setup source code management git via https://github.com/vikas4cloud/docker-jenkins-integration-demo.git
+
+IntelliJ IDEA  ide
+
+java -jar bjshub.war --
+
+
+httpPort=8082 (EXPOSE 8080	)
+
+hello.java - > jar - add into the image(jdk8)
+
+java -jar C:\Dev env\jenkins.war --httpPort=8082
+
+done 
+
+
+Step 3 install required plugins
+ 
+1st - CloudBees Docker Build and Publish ---- https://plugins.jenkins.io/docker-build-publish/
+2nd - Docker Pipeline --- https://plugins.jenkins.io/docker-workflow/
+3rd - https://plugins.jenkins.io/docker-plugin/
+4th - https://plugins.jenkins.io/docker-build-step/
+
+install and restart you jekins
+
+done 
+
+
+Step 4 setup job/install maven for build a code i.e to create jar file
+done 
+
+
+Step 5 setup Continuous integration CI i.e SCM pooling
+done 
+
+
+
+Step 6 configure Docker Build and Publish i.e Continuous Deployment CD
+
+login with rajnish account and done 
+
+Step 7 Configure the docker registory credentials 
+
+done 
+
+Step 8 verify the logs on Jenkins console and verify on the Docker hub page 
+
+Finally ........ now any team and pull and use this (Bin/lib+java applicatile i.e jar file + OS )image 
+
+
+vikas@bjshub.com
+
+JioMart is an Indian online grocery delivery service, started as a joint venture between Reliance Retail and Jio Platforms. JioMart delivers grocery and daily essentials from nearby stores
+
+
